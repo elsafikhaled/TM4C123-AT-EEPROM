@@ -21,4 +21,4 @@ void GPIO_I2C1(void){
 	//Turn off Analog function
 	GPIO_PORTA_AMSEL=0x00;
 	
-}//!End of GPIO SPI Function.
+}//!End of GPIO I2C Function.

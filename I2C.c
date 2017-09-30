@@ -12,7 +12,7 @@ Clock_Enable_I2C(I2C1);
 GPIO_I2C1();
 //MASTER mode select.
 I2CMCR|=0x00000010;
-//calculate the SCL period at a speed of 100kbps at 20 MHZ.
+//calculate the SCL period at a speed of 400kbps at 16 MHZ.
 /***************SCL period calculation.*****************
 TPR = (System Clock/(2*(SCL_LP + SCL_HP)*SCL_CLK))-1;  *
 TPR = (16MHz/(2*(6+4)*400000))-1;                      *
